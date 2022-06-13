@@ -1,0 +1,21 @@
+{
+  "name": "przepisy",
+  "version": "1.0.0",
+  "description": "Projekt na studia",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafał Gulewski",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1"
+  }
+}
